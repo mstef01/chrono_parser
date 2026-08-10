@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "season": "2026",
+      "event_id": "20260501_mtb",
+      "name": "Mona Yongpyong",
+      "round": "1",
+      "discipline": "dh"
+    },
+    {
+       "season": "2026",
+       "event_id": "20260528_mtb",
+       "name": "Loudenvielle",
+       "round": "2",      
+       "discipline": "dh"   
+    }    
+  ]
+}

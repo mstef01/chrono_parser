@@ -1,0 +1,28 @@
+{
+    "men":
+        {
+          "timed_training": "TT_ME",
+          "Q1": "2",
+          "Q2": "91",
+          "Finals": "3"        
+       },
+    "women":
+        {
+          "timed_training": "TT_WE",
+          "Q1": "5",
+          "Q2": "92",
+          "Finals": "6"    
+        },
+    "junior men": 
+        {
+          "timed_training": "TT_MJ",
+          "Q1": "7",
+          "Finals": "8"    
+        },
+    "junior women": 
+        {
+          "timed_training": "TT_WJ",
+          "Q1": "9",
+          "Finals": "10"    
+        }   
+}
