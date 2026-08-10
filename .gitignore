@@ -25,3 +25,6 @@ dist/
 # Betriebssystem-Dateien
 .DS_Store
 Thumbs.db
+
+# Ordner für temporäre Dateien
+downloads/
