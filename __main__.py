@@ -7,10 +7,10 @@ from data_extractor.url_builder import build_url
 from data_extractor.response import get_data
 from formatter.table_builder import build_rider_data
 
-# build all URLs for the to make GET requests against ChronoRace API as defined in events.json
+# build all URLs for the to make GET requests against ChronoRace API as defined in world_cups.json
 urls = build_url()
 
-# get all full race results for the events defined in events.json and save as json in downloads folder
+# get all full race results for the events defined in world_cups.json and save as json in downloads folder
 timestamp = datetime.datetime.now()
 timestamp = timestamp.strftime("%Y-%m-%d_%H-%M-%S")
 filename = "full_data_results_" + timestamp + ".json"
