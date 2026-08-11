@@ -29,4 +29,4 @@ Thumbs.db
 # Ordner für temporäre Dateien
 downloads/
 data_json/2026/*
-data_json/2025/*
+!data_json/2026/example_full_data_results.json
