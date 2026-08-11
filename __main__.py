@@ -11,7 +11,7 @@ from formatter.table_builder import build_rider_data
 season = input("Enter the season (e.g. 2026): ")
 urls = build_url(season)
 
-# get all full race results for the events defined in world_cups.json and save as json in downloads folder
+# get all full race results for the events defined in world_cups.json and save as json in json data folder
 timestamp = datetime.datetime.now()
 timestamp = timestamp.strftime("%Y-%m-%d_%H-%M-%S")
 filename = "full_data_results_"+ season + "_" + timestamp + ".json"
