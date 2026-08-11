@@ -1,0 +1,67 @@
+{
+  "world_cups": [
+    {
+      "season": "2026",
+      "event_id": "20260501_mtb",
+      "name": "Mona Yongpyong",
+      "round": "1",
+      "discipline": "dh"
+    },
+    {
+       "season": "2026",
+       "event_id": "20260528_mtb",
+       "name": "Loudenvielle",
+       "round": "2",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20260611_mtb",
+       "name": "Leogang",
+       "round": "3",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20260619_mtb",
+       "name": "Lenzerheide",
+       "round": "4",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20260703_mtb",
+       "name": "La Thuile",
+       "round": "5",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20260708_mtb",
+       "name": "Pal Arinsal",
+       "round": "6",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20260821_mtb",
+       "name": "Les Gets",
+       "round": "7",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20260925_mtb",
+       "name": "Whistler",
+       "round": "8",      
+       "discipline": "dh"   
+    },
+    {
+       "season": "2026",
+       "event_id": "20261002_mtb",
+       "name": "Lake Placid",
+       "round": "9",      
+       "discipline": "dh"   
+    }                                    
+  ]
+}
