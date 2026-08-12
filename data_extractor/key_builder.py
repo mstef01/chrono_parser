@@ -9,7 +9,7 @@ def build_key():
 
     keys = []
 
-    with open(r"config_files\cat_map.json", "r") as cat_mapping_file:
+    with open("config_files\\cat_map.json", "r") as cat_mapping_file:
         mapping = json.load(cat_mapping_file)
 
         for category, categories in mapping.items():
