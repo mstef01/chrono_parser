@@ -33,7 +33,3 @@ def get_timing_id(race_nr: int, category: str):
         timing_id = "4" + race_nr 
 
     return int(timing_id)
-
-if __name__ == "__main__":
-    print(get_timing_id(31, "WE"))
-    pass

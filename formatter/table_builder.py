@@ -73,18 +73,3 @@ def build_rider_data(filepath: str):
                         rider_data.append(row_data.copy())
     bar.finish
     return rider_data
-
-if __name__ == "__main__":
-
-    path = "data_json\\full_data_results_2026-08-10_13-35-12.json"
-    # build_rider_data(path)
-    df = pd.DataFrame(build_rider_data(path))
-    # df.to_csv("output.csv")
-    # dnfs = df.loc[df["Status"] == "DNF", ["ContextName", "DisplayName", "PrintName", "Status", "Sector1_RaceTime", "Sector2_RaceTime", "Sector5_RaceTime"]]
-    # dns = df.loc[df["Status"] == "DNS", ["ContextName", "DisplayName", "PrintName", "Status", "Sector1_RaceTime", "Sector2_RaceTime", "Sector5_RaceTime"]]
-    dns_or_dnf = df.loc[(df["Status"] == "DNS") | (df["Status"] == "DNF"), ["ContextName", "DisplayName", "PrintName", "Status"]]
-    print(dns_or_dnf.sort_values(by=["ContextName", "DisplayName", "Status"]))
-    # print(f"{len(dnfs.index)} riders did not finish.")
-    # print(f"{len(dns.index)} riders did not start.")
-
-    pass

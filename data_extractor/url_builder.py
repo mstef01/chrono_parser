@@ -32,6 +32,3 @@ def build_url(season: str):
                     urls.append(url)
 
     return urls
-
-if __name__ == "__main__":
-    print(build_url())
