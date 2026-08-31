@@ -1,18 +1,16 @@
-import json
 
 import requests
+
 from progress.bar import ChargingBar
 
-from .url_builder import build_url
-
-def get_data(urls: list):
+def get_data(wc_data: dict):
     """This function retrieves the GET response from ChronoRace API to fetch all DHI results from a list of URLs.
-     Returns a list of race data JSON objects as a python list of dictionaries. """
+     Returns a list of race data JSON objects as a list of dictionaries. """
 
     full_data = []
-    bar = ChargingBar("Fetching race data:", max=len(urls), suffix="%(percent)d%%")    
-    for url in urls:
-        url = url
+    bar = ChargingBar("Fetching race data:", max=len(wc_data), suffix="%(percent)d%%")    
+    for item in wc_data:
+        url = item["url"]
 
         headers = {
         "Referer": "https://prod.chronorace.be/angular/results.html",
