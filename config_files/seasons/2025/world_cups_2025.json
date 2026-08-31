@@ -3,70 +3,70 @@
       {
          "season": "2025",
          "event_id": "20250516_mtb",
-         "name": "Bielsko-Biala",
+         "venue": "Bielsko-Biala",
          "round": "1",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250530_mtb",
-         "name": "Loudenvielle",
+         "venue": "Loudenvielle",
          "round": "2",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250605_mtb",
-         "name": "Leogang",
+         "venue": "Leogang",
          "round": "3",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250620_mtb",
-         "name": "Val di Sole",
+         "venue": "Val di Sole",
          "round": "4",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250703_mtb",
-         "name": "La Thuile",
+         "venue": "La Thuile",
          "round": "5",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250709_mtb",
-         "name": "Pal Arinsal",
+         "venue": "Pal Arinsal",
          "round": "6",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250821_mtb",
-         "name": "Les Gets",
+         "venue": "Les Gets",
          "round": "7",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20250918_mtb",
-         "name": "Lenzerheide",
+         "venue": "Lenzerheide",
          "round": "8",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20251003_mtb",
-         "name": "Lake Placid",
+         "venue": "Lake Placid",
          "round": "9",
          "discipline": "dh"
       },
       {
          "season": "2025",
          "event_id": "20251009_mtb",
-         "name": "Mont Sainte Anne",
+         "venue": "Mont Sainte Anne",
          "round": "10",
          "discipline": "dh"
       }
