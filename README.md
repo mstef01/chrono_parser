@@ -1,7 +1,8 @@
 ```markdown
 # ChronoParser
 
-ChronoParser is a Python tool for fetching downhill race results from the ChronoRace API, saving the raw race data as JSON, and generating rider-level CSV output.
+ChronoParser is a Python tool for fetching downhill race results from the ChronoRace API,
+saving the raw race data as JSON, and generating rider-level CSV output.
 
 ## Features
 
