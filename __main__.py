@@ -5,7 +5,7 @@ import pandas as pd
 
 from data_extractor.url_builder import build_world_cup_data
 from data_extractor.response import get_data
-from formatter.table_builder import build_rider_data, add_info
+from formatter.table_builder import build_rider_data, enrich_wc_info
 
 def main():
     """This function builds a list of URLs for the ChronoRace API GET requests based on the season input by the user.
@@ -26,7 +26,7 @@ def main():
         print("Full race data written to full_data_results.json in the data_json subfolder.")
 
     #build rider data from json data and save race results as csv
-    df = pd.DataFrame(add_info(build_rider_data(filepath), wc_data))
+    df = pd.DataFrame(enrich_wc_info(build_rider_data(filepath), wc_data))
     df.to_csv(f"data_csv\\{season}\\race_data_{season}.csv")
     print(f"\nRace results saved as race_data_{season}.csv to data_csv\\{season} subfolder.")
 
