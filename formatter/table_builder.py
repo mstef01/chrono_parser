@@ -74,7 +74,9 @@ def build_rider_data(filepath: str):
     bar.finish
     return rider_data
 
+
 def enrich_wc_info(rider_data: list, context_data: list):
+
     """This function adds additional information to the rider data from the config files.
     It matches the rider data with the context data based on the ContextName and updates
     the rider data accordingly."""
