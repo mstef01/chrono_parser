@@ -4,7 +4,7 @@
 ChronoParser is a Python tool for fetching UCI Downhill World Cup data from the ChronoRace API,
 saving the raw timing data as semi-structured JSON output as well as generating structured CSV output
 on a seasonal, per-World Cup level. It supports World Cup timing data from the 2025 DHI World Cup
-season onwards (Timed Training, Q1, Q1 and Finals).
+season onwards (Timed Training, Q1, Q2 and Finals).
 
 ## Features
 
